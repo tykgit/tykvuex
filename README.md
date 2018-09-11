@@ -1,7 +1,5 @@
 # hushizhan
 
-> 护士站
-
 ## Build Setup
 
 ``` bash
