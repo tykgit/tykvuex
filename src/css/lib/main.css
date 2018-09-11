@@ -1,0 +1,309 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: MicrosoftYaHei!important;
+}
+
+/*鼠标点击无边框*/
+a { cursor:pointer; text-decoration:none; hide-focus: expression(this.hideFocus=true); outline:none;color:#57bc22;}
+a:link,a:visited,a:hover,a:active{ text-decoration:none;}
+a:focus{ outline:0;}
+
+#main{
+    margin: 0 auto;
+    min-width:1280px ;
+}
+
+/*头部样式*/
+#header{margin: 0 auto;width: 85%;margin: 0 auto;height: 70px;position: relative}
+#headerImg{display: inline-block;width: 52px;height: 43px;margin-top: 14px;}
+#headerTittle{display: inline-block;height: 40px;position: relative;bottom: 5px;left: 10px}
+
+
+#headerBox{margin: 0 auto}
+#logoImg{display: inline-block;width: 80px;height: 67px;margin-top: 18px;margin-bottom: 16px}
+#logoTitlle{display: inline-block;height: 28px;margin-top: 37px;margin-bottom: 36px;margin-left: 11px;font-size: 28px;vertical-align: top;font-weight: normal;font-stretch: normal;}
+
+
+
+#logoBox{width: 85%;margin: 0 auto;height: 70px;}
+/*导航样式*/
+#nav{height:50px;background-color:#0bb35b;color:#fff;overflow:hidden;font-size: 18px}
+#nav ul{width:1024px;margin:0 auto;font-size:16px;list-style-type:none;height:45px;padding:0;line-height:45px}
+#nav ul li{height: 50px;display:inline;float:left;margin-left:0;background-color:#0bb35b;padding:0 28px; margin-right: 4px; }
+#nav ul li.current,#nav ul li:hover{background-color:#09984c}
+#nav ul li.current a:hover{background-color:#09984c}
+#nav ul li a:hover{text-decoration:none;color:#fff}
+#nav ul li a{color:#fff;display:inline;float:left; height: 50px;}
+#nav ul i{ width: 30px; height: 30px; float: right;}
+#nav ul i img{ width: 20px; height: 20px;}
+#nav ul i:hover{ cursor: pointer;}
+/*导航选中*/
+.navChecked{
+    background-color:#09984c!important;
+    color: #fff!important;
+}
+
+#main #article{
+    margin: 0 auto;
+    background-color: #fff;
+    /*margin-top: 20px;*/
+}
+/*表格样式*/
+.listTable th,.listTable td{text-align: center!important;border-style:none!important;font-size: 14px;font-weight: normal;font-stretch: normal;line-height: 30px;letter-spacing: 0px;color: #000000;  }
+.listTable tr{height: 50px}
+tbody .listTableTr:nth-child(2n) {
+    background-color: #f2f2f2!important;
+}
+.bac{background-color: #f2f2f2!important;}
+.unbac{background-color: #fff!important;}
+.clear{height: 20px;background-color: #fff!important;}
+#dynamicMain .listTableTr:nth-child(2n){background-color: #f2f2f2!important;}
+#article_part1{background-color: #fff!important;margin: 0 auto;overflow: hidden;margin-top:20px}
+#article_part2{background-color: #fff!important;}
+
+/*病人个人信息的导航样式*/
+#personInfoNav li{cursor: pointer}
+#personInfoNav li a{display: inline-block;vertical-align:bottom;width: 110px;height: 65px;font-size: 14px;font-weight: normal;font-stretch: normal;line-height: 65px;letter-spacing: 0px;color: #000000;padding: 0;margin-left: 10px;}
+#personInfoNav li  div{margin-left: 50px;display: inline-block;width: 20px;height: 20px;position: relative;bottom: 5px;}
+#personInfoNav li:hover,#personInfoNav li a:hover{background-color:#eafff4;color: #0bb45a!important;}
+#personInfoTille{font-size: 14px;font-weight: normal;font-stretch: normal;text-indent: 40px;height: 50px;line-height: 50px;border-bottom:1px solid #eee }
+
+
+/*单次*/
+#singleMain{
+    width: 905px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#print_area td,#print_area th{border-style: none;height: 50px;padding: 0px}
+#SelectList td,#SelectList th{border-style: none;height: 50px;padding: 0px;text-align: center!important;}
+
+/*动态*/
+#dynamicMain{
+    width: 905px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+/*医嘱*/
+#docAdviceMain{
+    width: 905px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+/*个人信息*/
+#personDetailMain{
+    width: 905px;
+    margin: 0 auto;
+    /*margin-top: 30px;*/
+}
+#personDetailMain label{
+   text-align: left;
+    padding: 9px 0px;
+}
+#personDetailMain dd{
+    position: relative;
+    top: 8px;
+}
+/*医护信息*/
+#docInfo label{
+    text-align: left;
+    padding: 9px 0px;
+}
+#docInfo dd span{
+    display: inline-block;
+    margin-top: 8px;
+    color: #888;
+}
+/*病床样式*/
+#hospitalBed{width: 100%;overflow: hidden;margin-top: 20px}
+#hospitalBed li{
+    float: left;
+    width: 230px;
+    /*min-width: 250px;*/
+    height: 160px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: solid 1px rgba(215, 215, 215, 0.53);;
+}
+.hospitalTitlle{
+    height: 30px;
+    background-color: rgba(159, 238, 196, 0.4);
+    /*opacity: 0.4;*/
+    line-height: 30px;
+    position: relative;
+}
+.hospitalTitlle span{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-left: 10px;
+}
+.hospitalTitlle img{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.personName{
+    cursor: pointer;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.dataBox{
+    margin-top: 20px;
+    font-size: 14px!important;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.singleData{
+
+}
+.dynamicData{}
+.addPerson{
+    margin-top: 40px;
+    text-align: center;
+}
+.addPerson div{
+    cursor: pointer;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    /*border: 1px solid #000;*/
+    /*margin: 0 auto;*/
+}
+
+/*边框样式*/
+.leftst{
+    border: 1px solid;
+    border-right:0 ;
+}
+.left{
+    border-left: 1px solid ;
+}
+.tbboder{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+.rightst{
+    border: 1px solid;
+    /*border-left:0 ;*/
+}
+/*像素先1601px-1920px*/
+@media screen and (min-width: 1281px) and (max-width: 1920px) {
+    #main { width: 100%!important;}
+    #main #article{width: 1200px!important;}
+    #header {width: 1200px!important;}
+    #headerBox{width: 1200px!important;}
+    #nav ul{width:1200px!important;}
+    #article_part1{width: 1280px!important;margin: 0 auto; }
+    #article_part2{width: 985px!important;margin: 0 auto;margin-left: 15px;float: right }
+}
+
+/*@media screen and (min-width: 1025px) and (max-width: 1600px) {*/
+    /*#main { width: 100%!important;}*/
+    /*#main #article{width: 85%;}*/
+    /*#header {width:100%!important;}*/
+    /*#nav ul{width:85%!important;}*/
+    /*#article_part1{width: 85%;margin: 0 auto;margin-top:60px }*/
+    /*!*#loginBox{right: 0px!important;}*!*/
+/*}*/
+
+@media screen and (max-width: 1280px) {
+    #main { width: 100%!important;}
+    #main #article{width: 1200px;}
+    #header {width: 1200px!important;}
+    #headerBox{width: 1200px!important;}
+    #nav ul{width:1200px!important;}
+    /*#loginBox{right: 10px!important;}*/
+    /*#main #article{width: 100%;}*/
+    #article_part1{width: 100%!important;margin: 0 auto; }
+    #article_part2{width: 985px!important;margin: 0 auto;margin-left: 15px;float: right }
+}
+
+/*输入框宽度*/
+.input-w50{width: 50px}
+
+/*特殊的输入框和选择框*/
+.specialinput input[disabled] { border: none !important; background: none; padding-left: 0;}
+/*.specialinput.inpl input[disabled] { border: none !important; background: none; padding-left: 8px;}*/
+/*.specialinput.inpl input[disabled]:hover {  border: none; background: none; padding-left:8px;}*/
+.specialinput input[disabled]:hover {  border: none; background: none; padding-left: 0;}
+.specialinput input[disabled]:-moz-placeholder{ color: #444;}
+.specialinput input[disabled]::-webkit-input-placeholder{ color: #444;}
+.specialinput input[disabled]:-ms-input-placeholder{ color: #444;}
+
+.specialselect select[disabled]::-ms-expand { display: none;}
+.specialselect select[disabled] { background: none; border: none!important; padding-left: 0; color: #444; margin-left: -5px;font-family: "Microsoft YaHei"; appearance:none; -moz-appearance:none; -webkit-appearance:none; -ms-appearance:none;}
+.specialselect.sepl select[disabled] { background: none; border: none!important; padding-left:8px; color: #444; appearance:none; -moz-appearance:none; -webkit-appearance:none; -ms-appearance:none;}
+.specialselect.sepl:hover select[disabled]{ cursor: default; padding-left: 8px;}
+.specialselect select[disabled]:hover{ cursor: default;}
+.specialselect select[disabled] option{ color: #444;}
+
+
+
+.layBtn .layui-layer-btn .layui-layer-btn1{
+    background-color: #0bb35b;
+    color:#fff
+}
+.layBtn .layui-layer-btn .layui-layer-btn0{
+    background-color: #ffffff;
+    border-color: #0bb35b;
+    color: #757575;
+}
+
+.layui-table tbody tr:hover{
+    background-color: #eafff4!important;
+}
+
+/*分页*/
+.npage{
+    font-size: 13px !important;
+    padding-top: 3px;
+    height: 26px;
+    border: 1px solid #e8e8e8;
+    border-top:none;
+    background: #eee;
+    margin-bottom: 10px;
+}
+.npage span, .npage select option{
+    font-size: 13px !important;
+}
+.npage input, .npage select{
+    width: 20px;
+    padding:0;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    line-height:18px;
+    background-color: #fff;
+}
+.npage select{
+    width: 34px;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+.npage a.go{
+    width: 22px;
+    height:20px;
+    border-radius:2px;
+    background: #0bb35b ;
+    color: #fff;
+    font-size:12px;
+    line-height: 20px;
+    padding:1px 2px;
+    margin-right: 12px;
+}
+.npage a{font-size: 13px}
+
