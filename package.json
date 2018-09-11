@@ -2,7 +2,7 @@
   "name": "vuexdemo",
   "version": "1.0.0",
   "description": "tangyongkang",
-  "author": "yangle <yangle@vita-course.com>",
+  "author": "tyk",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
