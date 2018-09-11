@@ -1,5 +1,3 @@
-# hushizhan
-
 ## Build Setup
 
 ``` bash
